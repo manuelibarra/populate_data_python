@@ -20,7 +20,10 @@ def generate_random_float(start,end):
 
 def generate_dni():
     numbers = string.digits
-    result_dni = ''.join(random.choice(numbers) for i in range(8))
+    result_dni =''
+    #print(numbers)
+    for i in range(1,9,1):# FOR desde 1 hasta 8, i++
+        result_dni = result_dni+(random.choice(numbers)) 
     return result_dni   
 
 def generate_province(number):
