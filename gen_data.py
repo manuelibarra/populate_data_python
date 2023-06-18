@@ -1,5 +1,7 @@
 import random
 import string
+def msghola():
+   return "Hola mundo...!!"
 
 def getrandomstring(length):
     # choose from all lowercase letter
@@ -31,5 +33,4 @@ def generate_province(number):
   elif(number==7):
     return "Chincheros"  
   else:
-    
     return "sin provincia"
