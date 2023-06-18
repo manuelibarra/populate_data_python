@@ -1,5 +1,6 @@
 import random
 import string
+
 def msghola():
    return "Hola mundo...!!"
 
@@ -16,7 +17,12 @@ def generate_random_int(start,end):
 def generate_random_float(start,end):
     # choose from all lowercase letter
     return round(random.uniform(start, end),2)
-    
+
+def generate_dni():
+    numbers = string.digits
+    result_dni = ''.join(random.choice(numbers) for i in range(8))
+    return result_dni   
+
 def generate_province(number):
   if (number==1): 
     return "Abancay"
