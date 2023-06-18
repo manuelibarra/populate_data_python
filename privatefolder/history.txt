@@ -1,0 +1,53 @@
+    1  ls
+    2  dir
+    3  d:
+    4  d:quit
+    5  cd d:
+    6  ls
+    7  cd godot3
+    8  ls
+    9  git init
+   10  git add .
+   11  git commit
+   12  git config --global user.email "manuelibarra@gmail.com"
+   13  git config --global user.name "Manuel Ibarra"
+   14  git status
+   15  git commint "first commint all project ping pong in Godot V3"
+   16  git commit -m "first commint all project ping pong in Godot V3"
+   17  git remote add origin https://github.com/manuelibarra/pingpong_godot3.git
+   18  git push -u origin master
+   19  git push -u origin master
+   20  git push -u origin master
+   21  git status
+   22  git push -u origin master
+   23  git pull origin master
+   24  dir
+   25  cd ..
+   26  cd IS_retos/
+   27  dir
+   28  cd populate_data_python/
+   29  dir
+   30  git init
+   31  git status
+   32  git push origin master
+   33  git push
+   34  git push master
+   35  git remote add origin https://github.com/manuelibarra/populate_data_python.git
+   36  git push -u origin main
+   37  git commit -m "agregando hola"
+   38  git status
+   39  git add .
+   40  git status
+   41  git commit -m "adding hola"
+   42  git status
+   43  git push
+   44  git status
+   45  git status
+   46  git log
+   47  git rev-list HEAD --count
+   48  git rev-list HEAD
+   49  git rev-list HEAD --count
+   50  git shortlog -s
+   51  git rev-list HEAD --count
+   52  history
+   53  history>>history.txt
