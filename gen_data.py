@@ -2,7 +2,7 @@ import random
 import string
 
 def msghola():
-   return "Hola mundo...!!"
+  return "Hola mundo...!!"
 
 def getrandomstring(length):
   # choose from all lowercase letter
@@ -22,8 +22,9 @@ def generate_dni():
   numbers = string.digits
   result_dni =''
   #print(numbers)
-  for i in range(1,9,1):# FOR desde 1 hasta 8, i++
-      result_dni = result_dni+(random.choice(numbers)) 
+  for i in range(1,9,1):
+    # FOR desde 1 hasta 8, i++
+    result_dni = result_dni+(random.choice(numbers)) 
   return result_dni   
 
 def generate_province(number):
